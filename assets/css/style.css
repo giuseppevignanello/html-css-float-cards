@@ -23,12 +23,11 @@ body {
 
 /* Utility section  */
 
-.pd-y {
+.py-2 {
     padding-top: 2rem;
     padding-bottom: 2rem;
 }
-
-.pd-b {
+.pb-2 {
     padding-bottom: 2rem;
 }
 
@@ -49,28 +48,26 @@ header h1 {
 }
 
 /* Team section */
-
-
 .card {
     background-color: var(--main_color); 
     box-shadow: 0px 0px 2px 2px gray; 
 }
 
-.card, .card img {
+.card, .card {
     float: left;
-    width: calc(100% /3);
+    width: calc(100% /3 - 2rem);
+    margin-left: 1rem;
+    margin-right: 1rem;
 }
 
 .card img {
     margin-right: 1rem;
-}
-
-.card h4 {
-    margin-top: 1rem
+    float: left;
+    width: calc(100% /3 - 2rem);
 }
 
 .card span,h4 {
-    line-height: 1.5rem;
+    line-height: 1rem;
     color: var(--name_role_color);
 }
 
@@ -80,6 +77,14 @@ header h1 {
 
 .card .mail {
     color: var(--mail_color);
+}
+
+.team_row {
+    margin-bottom: 2rem;
+}
+
+.card_items {
+    padding: 0.5rem 1rem 0.5rem 0
 }
 
 
