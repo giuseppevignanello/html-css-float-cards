@@ -31,6 +31,10 @@ body {
     padding-bottom: 2rem;
 }
 
+.centred {
+    text-align: center;
+}
+
 .clear::after {
     display: table;
     content: "";
@@ -38,11 +42,6 @@ body {
 }
 
 /* Header */
-
-#site_header {
-    text-align: center;
-    padding-top: 1rem;
-}
 
 #site_header img {
     width: 50px;
@@ -60,13 +59,11 @@ body {
 .card {
     background-color: var(--main_color); 
     box-shadow: 0px 0px 2px 2px gray; 
-}
-
-.card, .card {
     float: left;
     width: calc(100% /3 - 2rem);
     margin-left: 1rem;
     margin-right: 1rem;
+   
 }
 
 .card img {
@@ -96,10 +93,6 @@ body {
     padding: 0.5rem 1rem 0.5rem 0
 }
 
-/* Footer */
-#site_footer{
-    text-align: center;
-}
 
 
 
