@@ -41,10 +41,18 @@ body {
 
 #site_header {
     text-align: center;
+    padding-top: 1rem;
+}
+
+#site_header img {
+    width: 50px;
+    vertical-align: middle;
 }
 
 #site_header h1 {
-    color: var(--title-color)
+    color: var(--title-color);
+    display: inline-block;
+    vertical-align: middle;
 }
 
 
