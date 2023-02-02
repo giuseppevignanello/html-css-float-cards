@@ -1,6 +1,27 @@
+/* General section */
 * {
     margin: 0; 
     padding: 0;
     box-sizing: border-box;
+}
+
+body {
+    font-family: 'Fredoka', sans-serif;
+}
+
+/* Utility section  */
+
+.pd-y {
+    padding-top: 2rem; 
+    padding-bottom: 2rem;
+}
+
+/* Header */
+
+header {
+    text-align: center;
+}
+header h1 {
+    color: #e53170;
 }
 
