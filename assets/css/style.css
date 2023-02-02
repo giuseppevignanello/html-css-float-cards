@@ -39,13 +39,14 @@ body {
 
 /* Header */
 
-header {
+#site_header {
     text-align: center;
 }
 
-header h1 {
+#site_header h1 {
     color: var(--title-color)
 }
+
 
 /* Team section */
 .card {
@@ -87,6 +88,10 @@ header h1 {
     padding: 0.5rem 1rem 0.5rem 0
 }
 
+/* Footer */
+#site_footer{
+    text-align: center;
+}
 
 
 
